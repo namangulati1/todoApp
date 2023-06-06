@@ -109,3 +109,52 @@ ul li span{
 ul li span:hover {
     background: #edeef0;
 }
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .buttons button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+  
+  .buttons button:first-child {
+    margin-right: 10px;
+  }
+  
+  .task-count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  #count {
+    margin-right: 48%;
+  }
+  
+  .status-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .status-buttons span {
+    margin-left: 10px;
+    cursor: pointer;
+    color: #555;
+    text-decoration: underline;
+  }
+  
+  .status-buttons span:hover {
+    color: #000;
+  }
